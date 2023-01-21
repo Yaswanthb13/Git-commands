@@ -26,3 +26,5 @@ Set a URL to a remote:git remote set-url <REMOTENAME> <URL>)
 (git push <REMOTENAME> <BRANCH>)
 
 12.To view remote addresses:git remote -v
+
+13.To view history that happened to a repo:git log
