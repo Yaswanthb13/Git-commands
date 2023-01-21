@@ -1,13 +1,28 @@
 1.Set your name:git config --global user.name "Your Name"
+
 2.Now set your email:git config --global user.email "youremail@example.com"
+
 3.Make a new folder:mkdir "foldername"
+
 4.Tell Git to initialize (start tracking) the folder you are now in:git init
+
 5.Check Status:git status
+
 6.Add file to staging area:git add "file name" ("git add." ->for multiple files)
+
 7.Commit changes with short message:git commit -m "message"
+
 8.After making any other changes, to see difference of file before and after:git diff
+
 9.If any new changes in file,then again git add .,git commit
+
 go to github add a repo and copy the https link of that repo
 10.To add a remote named 'origin' to your repository:git remote add origin <URLFROMGITHUB>
-for windows,if u have githubdesktop,a remote named origin is already created so:git remote set-url origin <URLFROMGITHUB>
+for windows,if u have githubdesktop,a remote named origin is already created so we need to set url here:git remote set-url origin <URLFROMGITHUB>
+(Add remote connections:git remote add <REMOTENAME> <URL>
+Set a URL to a remote:git remote set-url <REMOTENAME> <URL>)
+
 11.Push Work to your Remote:git push origin master
+(git push <REMOTENAME> <BRANCH>)
+
+12.To view remote addresses:git remote -v
