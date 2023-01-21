@@ -5,4 +5,5 @@
 5.Check Status:git status
 6.Add file to staging area:git add "file name" ("git add." ->for multiple files)
 7.Commit changes with short message:git commit -m "message"
-8.
+8.After making any other changes, to see difference of file before and after:git diff
+
