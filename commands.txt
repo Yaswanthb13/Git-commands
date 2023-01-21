@@ -1,0 +1,8 @@
+1.Set your name:git config --global user.name "Your Name"
+2.Now set your email:git config --global user.email "youremail@example.com"
+3.Make a new folder:mkdir "foldername"
+4.Tell Git to initialize (start tracking) the folder you are now in:git init
+5.Check Status:git status
+6.Add file to staging area:git add "file name" ("git add." ->for multiple files)
+7.Commit changes with short message:git commit -m "message"
+8.
